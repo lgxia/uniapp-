@@ -1,0 +1,1 @@
+<view>收货地址<my-address vue-id="735de122-1" bind:__l="__l"></my-address></view>

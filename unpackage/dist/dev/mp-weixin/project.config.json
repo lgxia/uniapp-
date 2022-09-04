@@ -1,0 +1,69 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.25.4",
+  "appid": "wxbbec8b94614c96bc",
+  "projectname": "hello-uni",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "name": "首页",
+          "query": "id=90",
+          "id": 0,
+          "pathName": "pages/index/index"
+        },
+        {
+          "name": "信息",
+          "id": 1,
+          "pathName": "pages/message/message"
+        },
+        {
+          "name": "购物车",
+          "id": 2,
+          "pathName": "pages/shoppingCat/shoppingCat"
+        },
+        {
+          "name": "我的",
+          "id": 3,
+          "pathName": "pages/my/my"
+        },
+        {
+          "name": "搜索",
+          "id": 4,
+          "pathName": "subpkg/search/search"
+        }
+      ]
+    }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}
